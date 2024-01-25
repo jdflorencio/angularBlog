@@ -1,0 +1,36 @@
+.containet__content {
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.content_cover {
+    
+}
+
+.content_cover > img{
+    border: 5px solid rgb(144, 144, 144);
+    width: 500px;
+    height: 300px;
+    min-width: 500px;
+    border-radius: 5px;
+}
+
+.content_title {
+
+}
+
+.content_description {
+    margin-top: 15px;
+}
+
+.content_description > p {
+    color: gray;
+}

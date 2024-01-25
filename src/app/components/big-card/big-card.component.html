@@ -1,18 +1,18 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img 
-        src="https://i.stack.imgur.com/luaq2.png" 
+        src="{{photoCover}}" 
         alt=""  
         >
     </div>
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular</a></h1>
+        <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
         
     </div>
     <div class="big-card__description">
         <p>
-            <a href="#">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id est risus. Vivamus augue magna, iaculis ut magna non, hendrerit congue erat. Fusce porttitor mauris vitae purus accumsan malesuada. Ut hendrerit ex ante, quis volutpat justo bibendum id. Nulla pretium mattis erat blandit consectetur. Ut quam dolor, scelerisque bibendum facilisis ege sed...
+            <a [routerLink]="['content',Id]">
+                {{cardDescription}}
             </a>
         </p>
     </div>    
